@@ -1,0 +1,27 @@
+body, html {
+    margin: 0px;
+    background-color: #3d5f3e;
+}
+
+.greenBackground {
+    background-color: #3d5f3e;
+}
+
+.bigTitle {
+    background-color: #152216;
+    color: white;
+    padding: 20px 40px;
+    font-size: 40px;
+}
+
+.blackjackCard {
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+    width: 150px;
+    background-color: transparent !important;
+}
+
+#player-cards, #computer-cards {
+    height: 240px;
+}

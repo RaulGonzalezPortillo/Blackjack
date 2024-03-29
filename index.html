@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bigTitle">
+        Blackjack
+    </header>
+    <div class="row greenBackground pb-4">
+        <div id="gameButtonsGroup" class="btn-group" role="group">
+            <button id="btnNewGame" type="button" class="btn btn-success btn-lg">New game</button>
+            <button id="btnHit" type="button" class="btn btn-warning btn-lg">Hit</button>
+            <button id="btnStand" type="button" class="btn btn-danger btn-lg">Stand</button>
+        </div>
+    </div>
+    <div class="row container-fluid greenBackground mx-0 text-white">
+        <div class="col">
+            <h1>Player 1 - <small id="player-score-label">0</small></h1>
+            <div id="player-cards">
+                <!-- <img class="blackjackCard" src="assets/cards/10C.png">
+                <img class="blackjackCard" src="assets/cards/10C.png">
+                <img class="blackjackCard" src="assets/cards/10C.png">
+                <img class="blackjackCard" src="assets/cards/10C.png"> -->
+            </div>
+            
+        </div>
+    </div>
+    <div class="row container-fluid greenBackground mx-0 pt-4 text-white">
+        <div class="col">
+            <h1>Computer - <small id="computer-score-label">0</small></h1>
+            <div id="computer-cards">
+                <!-- <img class="blackjackCard" src="assets/cards/10C.png">
+                <img class="blackjackCard" src="assets/cards/10C.png">
+                <img class="blackjackCard" src="assets/cards/10C.png">
+                <img class="blackjackCard" src="assets/cards/10C.png"> -->
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/underscore-umd-min.js"></script>
+    <script src="assets/js/game.js"></script>
+</body>
+</html>
